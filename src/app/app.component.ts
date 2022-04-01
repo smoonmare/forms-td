@@ -8,6 +8,8 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent implements OnInit {
   @ViewChild('formData') signupForm?: NgForm;
+  defaultQuestion = 'pet';
+  answer = '';
   
   ngOnInit(): void {
       
