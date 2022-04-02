@@ -10,6 +10,7 @@ export class AppComponent implements OnInit {
   @ViewChild('formData') signupForm?: NgForm;
   defaultQuestion = 'pet';
   answer = '';
+  genders = ['male', 'female'];
   
   ngOnInit(): void {
       
